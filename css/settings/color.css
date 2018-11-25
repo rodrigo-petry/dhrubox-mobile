@@ -3,7 +3,10 @@
   --color-first: rgb(36, 211, 155);
   --color-none: transparent;
   --color-zero: #fff;
+  --color-negative: #000;
 
   --color-title: #5c5c5c;
   --color-text: #292929;
+
+  --color-background-light: #f1f4f9;
 }

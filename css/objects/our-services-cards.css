@@ -1,0 +1,38 @@
+.our-services .card {
+  margin-left: var(--spacing-small);
+  margin-right: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
+}
+
+.our-services .card img {
+  margin: var(--spacing-minimal);
+}
+
+.our-services .card h4 {
+  font-weight: 900;
+  color: var(--color-negative);
+  font-size: var(--size-text-mobile);
+  margin-bottom: var(--spacing-normal);
+}
+
+.our-services .card p {
+  font-size: var(--size-text-mobile);
+  text-align: left;
+}
+
+.our-services .card button {
+  width: 100%;
+  background-color: var(--color-first);
+  border: var(--border) solid var(--color-none);
+  padding: var(--spacing-small);
+  color: var(--color-zero);
+  font-weight: bold;
+  margin-top: var(--spacing-small);
+}
+
+
+.our-services .card button:hover {
+  background-color: var(--color-none);
+  color: var(--color-first);
+  border: var(--border) solid var(--color-first);
+}
