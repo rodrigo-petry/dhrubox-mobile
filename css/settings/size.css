@@ -1,0 +1,19 @@
+:root {
+
+  --spacing-big: 180px;
+  --spacing-less-big: 80px;
+  --spacing-medium: 50px;
+  --spacing-normal: 35px;
+  --spacing-small: 20px;
+  --spacing-minimal: 10px;
+
+  --button-text: 15px;
+  --button-radius: 50px;
+
+  --border: 2px;
+
+  --line-height: 30px;
+
+  --size-title-mobile: 40px;
+  --size-text-mobile: 18px;
+}

@@ -1,0 +1,20 @@
+.navbar {
+  background-color: var(--color-first);
+  position: fixed;
+  width: 100%;
+}
+
+.navbar .burger {
+  color: var(--color-zero);
+}
+
+.navbar-logo {
+  color: var(--color-zero);
+}
+
+@media only screen and (min-width: 600px) {
+
+  .navbar {
+    height: 75px;
+  }
+}

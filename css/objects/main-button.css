@@ -1,0 +1,20 @@
+.main-content button {
+  background-color: var(--color-none);
+  font-size: var(--button-text);
+  padding: var(--spacing-small) var(--spacing-normal);
+  line-height: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--color-first);
+  border: var(--border) solid var(--color-first);
+  border-radius: var(--button-radius);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-content button:hover {
+  background-color: var(--color-first);
+  border: var(--border) solid var(--color-first);
+  color: var(--color-zero);
+  border: var(--border) solid var(--color-none);
+}

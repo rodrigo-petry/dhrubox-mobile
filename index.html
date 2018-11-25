@@ -3,15 +3,70 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <title>Bulma Framework Tests</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.css"/>
 
+    <link rel="stylesheet" href="css/settings/color.css" />
+    <link rel="stylesheet" href="css/settings/size.css" />
+
+    <link rel="stylesheet" href="css/components/navbar.css" />
+    <link rel="stylesheet" href="css/components/block.css" />
+    <link rel="stylesheet" href="css/components/main.css" />
+
+    <link rel="stylesheet" href="css/objects/main-texts.css" />
+    <link rel="stylesheet" href="css/objects/main-button.css" />
+
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
   </head>
 
   <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-brand">
+          <a href="index.html" class="navbar-item navbar-logo">
+            Logo
+          </a>
 
+          <a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-targe="menuItems">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="menuItems" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="#" class="navbar-item is-active">Work</a>
+            <a href="#" class="navbar-item">About</a>
+            <a href="#" class="navbar-item">Case Study</a>
+            <a href="#" class="navbar-item">Blog</a>
+            <a href="#" class="navbar-item">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content block">
+      <div class="container">
+        <div class="main-texts has-text-centered-mobile">
+          <h1 class="title">Software Design & Development Company</h1>
+          <p class="subtitle">Creating beautiful digital products engineered to drive growth for the world’s leading brands.</p>
+
+          <button class="button">Our Portfolio</button>
+        </div>
+
+        <div class="image-curves">
+          <img src="img/curves.png" alt="" />
+        </div>
+      </div>
+    </main>
+
+    <script src="js/components/navbar.js"></script>
   </body>
 </html>

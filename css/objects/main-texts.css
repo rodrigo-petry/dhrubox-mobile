@@ -1,0 +1,30 @@
+.main-texts {
+  padding-top: var(--spacing-big);
+  padding-left: var(--spacing-small);
+  padding-right: var(--spacing-small);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.main-texts h1 {
+  font-weight: 900;
+  font-size: var(--size-title-mobile);
+  color: var(--color-title);
+}
+
+.main-texts h1::after {
+  content: '';
+  display: block;
+  width: var(--spacing-less-big);
+  border-top: var(--border) solid var(--color-first);
+  margin: var(--spacing-small) auto;
+  margin-bottom: var(--spacing-medium);
+}
+
+.main-texts p {
+  font-size: var(--size-text-mobile);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  opacity: 0.80;
+  margin-bottom: var(--spacing-small);
+}
