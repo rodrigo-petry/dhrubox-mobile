@@ -13,7 +13,9 @@
   --border: 2px;
 
   --line-height: 30px;
+  --medium-line-height: 1.33em;
 
   --size-title-mobile: 40px;
   --size-text-mobile: 18px;
+  --size-medium-title-mobile: 20px;
 }
