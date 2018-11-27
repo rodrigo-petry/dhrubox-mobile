@@ -9,4 +9,7 @@
   --color-text: #292929;
 
   --color-background-light: #f1f4f9;
+  --color-background-title-card: rgba(36, 211, 155, 0.10);
+
+  --color-title-card: #08a372;
 }

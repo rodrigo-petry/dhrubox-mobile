@@ -1,0 +1,18 @@
+.case-study .card {
+  margin-right: var(--spacing-small);
+  margin-left: var(--spacing-small);
+  margin-bottom: var(--spacing-normal);
+}
+
+.case-study .card h5 {
+  font-size: var(--size-sub-tile-card-mobile);
+  color: var(--color-title-card);
+  background-color: var(--color-background-title-card);
+  padding: var(--spacing-minimal) var(--spacing-small);
+  width: 68%;
+}
+
+.case-study .card h4 {
+  font-size: var(--size-title-card-mobile);
+  font-weight: bold;
+}
