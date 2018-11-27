@@ -9,6 +9,8 @@
   border: var(--border) solid var(--color-first);
   border-radius: var(--button-radius);
 
+  transition: all 200ms linear;
+
   font-family: 'Source Sans Pro', sans-serif;
 }
 

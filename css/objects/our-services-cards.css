@@ -28,6 +28,8 @@
   color: var(--color-zero);
   font-weight: bold;
   margin-top: var(--spacing-small);
+
+  transition: all 200ms linear;
 }
 
 
