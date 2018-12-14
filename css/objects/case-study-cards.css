@@ -9,7 +9,7 @@
   color: var(--color-title-card);
   background-color: var(--color-background-title-card);
   padding: var(--spacing-minimal) var(--spacing-small);
-  width: 68%;
+  width: 72%;
 }
 
 .case-study .card h4 {

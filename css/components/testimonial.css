@@ -1,0 +1,6 @@
+.testimonial {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--color-background-light);
+  text-align: center;
+  padding-bottom: var(--spacing-normal);
+}

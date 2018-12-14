@@ -1,0 +1,17 @@
+.testimonial .card {
+  margin-right: var(--spacing-small);
+  margin-left: var(--spacing-small);
+  margin-bottom: var(--spacing-normal);
+}
+
+.company_img {
+  margin: var(--spacing-small) 0;
+}
+
+.testimonial .client-info img {
+  margin: var(--spacing-small) 0;
+}
+
+.testimonial .client-info .client-name {
+  color: var(--color-negative);
+}

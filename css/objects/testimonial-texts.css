@@ -1,0 +1,17 @@
+.testimonial-texts h2 {
+  color: var(--color-first);
+  font-size: var(--size-text-mobile);
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: var(--spacing-small);
+  padding-top: var(--spacing-medium);
+}
+
+.testimonial-texts h3 {
+  font-weight: bold;
+  color: var(--color-text);
+  opacity: 0.90;
+  line-height: var(--medium-line-height);
+  font-size: var(--size-medium-title-mobile);
+  margin-bottom: var(--spacing-normal);
+}
