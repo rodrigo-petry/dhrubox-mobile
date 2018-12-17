@@ -1,0 +1,28 @@
+.free-quote {
+  background-color: var(--color-second);
+  margin-left: var(--spacing-small);
+  margin-right: var(--spacing-small);
+  margin-top: var(--spacing-small);
+  margin-bottom: var(--spacing-normal);
+  padding-top: var(--spacing-normal);
+  text-align: center;
+  color: var(--color-zero);
+
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.free-quote h4 {
+  font-size: var(--size-medium-title-mobile);
+  margin-bottom: var(--spacing-small);
+  font-weight: bold;
+}
+
+.free-quote p {
+  opacity: 0.60;
+  margin-bottom: var(--spacing-normal);
+}
+
+.free-quote button {
+  margin-bottom: var(--spacing-normal);
+  color: var(--color-negative);
+}
