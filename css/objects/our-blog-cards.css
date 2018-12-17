@@ -1,0 +1,27 @@
+.our-blog-cards {
+  margin-right: var(--spacing-small);
+  margin-left: var(--spacing-small);
+  margin-bottom: var(--spacing-normal);
+}
+
+.our-blog-cards .card-content h4 {
+  font-size: var(--size-medium-title-mobile);
+  color: var(--color-negative);
+  margin: var(--spacing-normal) 0;
+}
+
+.our-blog-cards .author-info {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.author-info h5 {
+  margin-left: var(--spacing-minimal);
+  font-size: var(--size-text-mobile)
+}
+
+.our-blog-cards p {
+  margin-top: var(--spacing-normal);
+  font-size: var(--size-medium-title-mobile);
+}

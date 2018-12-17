@@ -1,0 +1,18 @@
+.our-blog-texts {
+  text-align: center;
+  margin-bottom: var(--spacing-normal);
+}
+
+.our-blog-texts h2 {
+  font-size: var(--size-text-mobile);
+  color: var(--color-first);
+  margin-bottom: var(--spacing-small);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.our-blog-texts h3 {
+  font-weight: 400;
+  color: var(--color-negative);
+  font-size: var(--size-text-mobile);
+}
