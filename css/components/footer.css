@@ -1,0 +1,23 @@
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 0 var(--spacing-minimal);
+}
+
+footer ul li a  {
+  color: var(--color-text);
+
+  transition: all 200ms linear;
+}
+
+footer ul li a:hover {
+  color: var(--color-title);
+}
+
+footer {
+  background-color: var(--color-footer);
+  padding: var(--spacing-normal) 0;
+}
